@@ -366,7 +366,7 @@
   display: flex;
   justify-content: center;
   position: absolute;
-  top: 150px;
+  top: 125px;
   left: 500px;
 }
 
@@ -477,8 +477,8 @@
     font-size: 20px;
   }
   .price-details .price::after{
-    content: "/mes";
-    right: -33px;
+    content: "/perma";
+    right: -50px;
     bottom: 17px;
     font-size: 13px;
   }
