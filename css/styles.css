@@ -811,9 +811,10 @@ ul{
   top: 200px;
   transform-style: preserve-3d;
 	perspective: 1000px;
+  
 }
 
-.card1__h1{
+.card8__h1{
   position: absolute;
   bottom: 330px;
   text-align: center;
@@ -821,7 +822,7 @@ ul{
   color: white;
 }
 
-.card2__h1{
+.card9__h1{
   position: absolute;
   bottom: 330px;
   text-align: center;
@@ -829,7 +830,7 @@ ul{
   color: white;
 }
 
-.card3__h1{
+.card10__h1{
   position: absolute;
   bottom: 330px;
   text-align: center;
@@ -905,3 +906,153 @@ ul{
 }
 
 
+
+
+
+
+
+
+
+/*OPOS*/
+.wrapper4__container{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin: auto;
+}
+
+.wrapper4{
+  height: 200px;
+  width: 400px;
+  position: relative;
+  top: 150px;
+  transform-style: preserve-3d;
+	perspective: 1000px;
+  margin-top: 25px;
+}
+
+.card1__h1{
+  position: absolute;
+  bottom: 150px;
+  text-align: center;
+  left: 160px;
+  color: rgb(0, 0, 0);
+}
+
+.card2__h1{
+  position: absolute;
+  bottom: 150px;
+  text-align: center;
+  left: 150px;
+  color: rgb(0, 0, 0);
+}
+
+.card3__h1{
+  position: absolute;
+  bottom: 150px;
+  text-align: center;
+  left: 150px;
+  color: rgb(0, 0, 0);
+}
+.wrapper4 .card{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  padding: 5px;
+  background: rgba(255, 255, 255, 0.4);
+  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  backdrop-filter: blur(1.5px);
+  -webkit-backdrop-filter: blur(1.5px);
+  border-radius: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.18);
+  border-radius: 10px;
+  transform: translateY(0deg);
+  backface-visibility: hidden;
+  transform-style: preserve-3d;
+  box-shadow: 0px 10px 15px rgba(0,0,0,0.1);
+  transition: transform 0.7s cubic-bezier(0.4,0.2,0.2,1);
+}
+.wrapper4:hover > .front-face{
+  transform: rotateY(-180deg);
+}
+.wrapper4 .card img{
+  height: 75%;
+  width: 75%;
+  object-fit: cover;
+  border-radius: 10px;
+  position: relative;
+  top: 40px;
+  left: 40px;
+}
+.wrapper4 .back-face{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  transform: rotateY(180deg);
+}
+.wrapper4:hover > .back-face{
+  transform: rotateY(0deg);
+}
+.wrapper4 .back-face img{
+  height: 150px;
+  width: 150px;
+  padding: 5px;
+  border-radius: 50%;
+  background: linear-gradient(145deg, rgba(185, 100, 255, 0.651) 0%, #AF125E 100%);
+}
+.wrapper4 .back-face .info{
+  text-align: center;
+}
+.back-face .info .title2{
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.button2{
+  width: 35%;
+  border-radius: 25px;
+  border: none;
+  outline: none;
+  height: 40px;
+  font-size: 18px;
+  color: #fff;
+  cursor: pointer;
+  margin-top: 20px;
+  background: linear-gradient(145deg, rgba(185, 100, 255, 0.651) 0%, #AF125E 100%);
+  transition: transform 0.3s ease;
+}
+.button2:hover{
+  transform: scale(0.98);
+}
+
+.button2 a{
+  color: white;
+}
+
+
+
+
+.card4__h1{
+  position: absolute;
+  bottom: 150px;
+  text-align: center;
+  left: 150px;
+  color: rgb(0, 0, 0);
+}
+
+.card5__h1{
+  position: absolute;
+  bottom: 150px;
+  text-align: center;
+  left: 100px;
+  color: rgb(0, 0, 0);
+}
+
+.card6__h1{
+  position: absolute;
+  bottom: 150px;
+  text-align: center;
+  left: 150px;
+  color: rgb(0, 0, 0);
+}
